@@ -5,8 +5,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  final double row1Padding = 40;
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -20,7 +18,6 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -36,7 +33,6 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -47,7 +43,6 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -58,7 +53,6 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -74,7 +68,6 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -90,7 +83,6 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
-                      //crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Container(
                           color: Colors.grey.withOpacity(0.6),
@@ -109,7 +101,6 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Column(
-                              //crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 Container(
                                   color: Colors.grey.withOpacity(0.6),
@@ -124,7 +115,6 @@ class MyApp extends StatelessWidget {
                         Row(
                           children: [
                             Column(
-                              //crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 Container(
                                   color: Colors.grey.withOpacity(0.6),
@@ -145,7 +135,6 @@ class MyApp extends StatelessWidget {
                             Row(
                               children: [
                                 Column(
-                                  //crossAxisAlignment: CrossAxisAlignment.stretch,
                                   children: [
                                     Container(
                                       color: Colors.grey.withOpacity(0.6),
